@@ -1,6 +1,6 @@
 #!/usr/bin/make
 PROJECT  = nginx-site
-PATH_PROJECT = $(DESTDIR)/usr/local/sbin
+PATH_PROJECT = $(DESTDIR)/usr/local/bin
 
 help:
 	@perl -e '$(HELP_ACTION)' $(MAKEFILE_LIST)

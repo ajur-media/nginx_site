@@ -1,3 +1,7 @@
+# Install
+
+https://github.com/ajur-media/nginx_site/releases
+
 # File
     
 nginx_site
