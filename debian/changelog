@@ -1,0 +1,11 @@
+nginx-site (0.9.0) stable; urgency=medium
+
+  * [R] Stable release
+
+ -- Karel Wintersky <karel.wintersky@yandex.ru>  Thu, 21 Apr 2022 14:29:14 +0300
+
+nginx-site (0.0.1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Karel Wintersky <karel.wintersky@yandex.ru>  Thu, 21 Apr 2022 13:42:49 +0300

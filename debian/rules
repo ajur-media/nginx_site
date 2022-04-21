@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+# export DH_VERBOSE = 1
+export DH_COMPAT=10
+
+# PACKAGENAME := $(shell awk '/^Package:/ {print $$2;}' debian/control)
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/nginx-site
+
+override_dh_auto_build:
+
+override_dh_usrlocal:
+
+
